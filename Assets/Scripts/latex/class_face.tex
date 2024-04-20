@@ -1,0 +1,126 @@
+\doxysection{Face Class Reference}
+\hypertarget{class_face}{}\label{class_face}\index{Face@{Face}}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_face_ad6c8f8c3c33ce371717edccb5c7416de}{Set\+Offset}} (float offset)
+\item 
+\mbox{\hyperlink{class_face_afb10153a6907473c32d831769deccdcc}{Face}} (Vector3 point1, Vector3 point2, Vector3 point3)
+\item 
+\mbox{\hyperlink{class_face}{Face}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_face_ab322f7f8859784e14ca81b4f94f778ad}{Subdivide}} ()
+\item 
+Vector3 \mbox{\hyperlink{class_face_a4dbe994e81091bf08d2a940e9b9a98b3}{Get\+Centroid\+Point}} ()
+\item 
+Vector3 \mbox{\hyperlink{class_face_a558ee33dd7a6c538c6f91e5ae0b3ef11}{Offset\+Centroid}} (\mbox{\hyperlink{class_final_face}{Final\+Face}} f)
+\item 
+float \mbox{\hyperlink{class_face_a4bec3472682566162705db4d70b61e75}{Correct\+To\+Radius}} (float sphere\+Radius, Vector3 p)
+\item 
+void \mbox{\hyperlink{class_face_a696b5b488ea29ee459ccd6dc5e02a9c6}{Fix\+Radius}} (float radius)
+\item 
+Vector3 \mbox{\hyperlink{class_face_a8340121bd6850745b9e9ef6d42a86798}{Multiply\+Vector}} (Vector3 point, float multiplication)
+\item 
+void \mbox{\hyperlink{class_face_a0645ec2172b104d7a36bcc124942cec6}{Store\+Points}} (\mbox{\hyperlink{class_storage}{Storage}} storage)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Vector3 \mbox{\hyperlink{class_face_a8f262b4d4de0d29e9bdb01fbbd9d94aa}{p1}}
+\item 
+Vector3 \mbox{\hyperlink{class_face_ae2c9513c3bfa45cfe32a3855ccf0b942}{p2}}
+\item 
+Vector3 \mbox{\hyperlink{class_face_a6432cad68dce6ffb783da1c7f005facd}{p3}}
+\item 
+\mbox{\hyperlink{class_face}{Face}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_face_a3ee059c8b2a1297f7bb88578bee70489}{neighbours}} = new \mbox{\hyperlink{class_face}{Face}}\mbox{[}3\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_face_afb10153a6907473c32d831769deccdcc}\label{class_face_afb10153a6907473c32d831769deccdcc} 
+\index{Face@{Face}!Face@{Face}}
+\index{Face@{Face}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{Face()}{Face()}}
+{\footnotesize\ttfamily Face.\+Face (\begin{DoxyParamCaption}\item[{Vector3}]{point1,  }\item[{Vector3}]{point2,  }\item[{Vector3}]{point3 }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_face_a4bec3472682566162705db4d70b61e75}\label{class_face_a4bec3472682566162705db4d70b61e75} 
+\index{Face@{Face}!CorrectToRadius@{CorrectToRadius}}
+\index{CorrectToRadius@{CorrectToRadius}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{CorrectToRadius()}{CorrectToRadius()}}
+{\footnotesize\ttfamily float Face.\+Correct\+To\+Radius (\begin{DoxyParamCaption}\item[{float}]{sphere\+Radius,  }\item[{Vector3}]{p }\end{DoxyParamCaption})}
+
+\Hypertarget{class_face_a696b5b488ea29ee459ccd6dc5e02a9c6}\label{class_face_a696b5b488ea29ee459ccd6dc5e02a9c6} 
+\index{Face@{Face}!FixRadius@{FixRadius}}
+\index{FixRadius@{FixRadius}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{FixRadius()}{FixRadius()}}
+{\footnotesize\ttfamily void Face.\+Fix\+Radius (\begin{DoxyParamCaption}\item[{float}]{radius }\end{DoxyParamCaption})}
+
+\Hypertarget{class_face_a4dbe994e81091bf08d2a940e9b9a98b3}\label{class_face_a4dbe994e81091bf08d2a940e9b9a98b3} 
+\index{Face@{Face}!GetCentroidPoint@{GetCentroidPoint}}
+\index{GetCentroidPoint@{GetCentroidPoint}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{GetCentroidPoint()}{GetCentroidPoint()}}
+{\footnotesize\ttfamily Vector3 Face.\+Get\+Centroid\+Point (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\Hypertarget{class_face_a8340121bd6850745b9e9ef6d42a86798}\label{class_face_a8340121bd6850745b9e9ef6d42a86798} 
+\index{Face@{Face}!MultiplyVector@{MultiplyVector}}
+\index{MultiplyVector@{MultiplyVector}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{MultiplyVector()}{MultiplyVector()}}
+{\footnotesize\ttfamily Vector3 Face.\+Multiply\+Vector (\begin{DoxyParamCaption}\item[{Vector3}]{point,  }\item[{float}]{multiplication }\end{DoxyParamCaption})}
+
+\Hypertarget{class_face_a558ee33dd7a6c538c6f91e5ae0b3ef11}\label{class_face_a558ee33dd7a6c538c6f91e5ae0b3ef11} 
+\index{Face@{Face}!OffsetCentroid@{OffsetCentroid}}
+\index{OffsetCentroid@{OffsetCentroid}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{OffsetCentroid()}{OffsetCentroid()}}
+{\footnotesize\ttfamily Vector3 Face.\+Offset\+Centroid (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_final_face}{Final\+Face}}}]{f }\end{DoxyParamCaption})}
+
+\Hypertarget{class_face_ad6c8f8c3c33ce371717edccb5c7416de}\label{class_face_ad6c8f8c3c33ce371717edccb5c7416de} 
+\index{Face@{Face}!SetOffset@{SetOffset}}
+\index{SetOffset@{SetOffset}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{SetOffset()}{SetOffset()}}
+{\footnotesize\ttfamily void Face.\+Set\+Offset (\begin{DoxyParamCaption}\item[{float}]{offset }\end{DoxyParamCaption})}
+
+\Hypertarget{class_face_a0645ec2172b104d7a36bcc124942cec6}\label{class_face_a0645ec2172b104d7a36bcc124942cec6} 
+\index{Face@{Face}!StorePoints@{StorePoints}}
+\index{StorePoints@{StorePoints}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{StorePoints()}{StorePoints()}}
+{\footnotesize\ttfamily void Face.\+Store\+Points (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_storage}{Storage}}}]{storage }\end{DoxyParamCaption})}
+
+\Hypertarget{class_face_ab322f7f8859784e14ca81b4f94f778ad}\label{class_face_ab322f7f8859784e14ca81b4f94f778ad} 
+\index{Face@{Face}!Subdivide@{Subdivide}}
+\index{Subdivide@{Subdivide}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{Subdivide()}{Subdivide()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_face}{Face}}\mbox{[}$\,$\mbox{]} Face.\+Subdivide (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_face_a3ee059c8b2a1297f7bb88578bee70489}\label{class_face_a3ee059c8b2a1297f7bb88578bee70489} 
+\index{Face@{Face}!neighbours@{neighbours}}
+\index{neighbours@{neighbours}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{neighbours}{neighbours}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_face}{Face}} \mbox{[}$\,$\mbox{]} Face.\+neighbours = new \mbox{\hyperlink{class_face}{Face}}\mbox{[}3\mbox{]}}
+
+\Hypertarget{class_face_a8f262b4d4de0d29e9bdb01fbbd9d94aa}\label{class_face_a8f262b4d4de0d29e9bdb01fbbd9d94aa} 
+\index{Face@{Face}!p1@{p1}}
+\index{p1@{p1}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{p1}{p1}}
+{\footnotesize\ttfamily Vector3 Face.\+p1}
+
+\Hypertarget{class_face_ae2c9513c3bfa45cfe32a3855ccf0b942}\label{class_face_ae2c9513c3bfa45cfe32a3855ccf0b942} 
+\index{Face@{Face}!p2@{p2}}
+\index{p2@{p2}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{p2}{p2}}
+{\footnotesize\ttfamily Vector3 Face.\+p2}
+
+\Hypertarget{class_face_a6432cad68dce6ffb783da1c7f005facd}\label{class_face_a6432cad68dce6ffb783da1c7f005facd} 
+\index{Face@{Face}!p3@{p3}}
+\index{p3@{p3}!Face@{Face}}
+\doxysubsubsection{\texorpdfstring{p3}{p3}}
+{\footnotesize\ttfamily Vector3 Face.\+p3}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_sphere_grid_8cs}{Sphere\+Grid.\+cs}}\end{DoxyCompactItemize}
